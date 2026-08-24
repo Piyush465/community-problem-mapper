@@ -1,3 +1,21 @@
+## My Contributions
+
+This project was developed collaboratively as a team project.
+
+My primary contributions focused on the **citizen-facing complaint workflow and multilingual voice input**, including:
+
+* Implementing **voice-to-text complaint transcription using OpenAI Whisper**
+* Integrating the Whisper `small` model into the FastAPI backend
+* Supporting audio uploads in WebM, WAV, MP3, M4A, and OGG formats
+* Handling language detection for **English, Hindi, and Kannada**
+* Adding fallback transcription behavior for unsupported detected languages
+* Building parts of the citizen login/registration workflow
+* Contributing to the complaint-submission flow for text, image, voice, and location data
+* Implementing multilingual text normalization/translation to English for downstream processing
+
+Other AI components, including image classification, semantic impact analysis, duplicate detection, and government-side functionality, were developed collaboratively by other members of the team.
+
+
 # 🚧 AI-Powered Community Problem Mapper
 
 An **AI-driven civic issue reporting platform** that allows citizens to report road infrastructure problems using **photos, voice, or text**, while automatically organizing and prioritizing them for government authorities.
